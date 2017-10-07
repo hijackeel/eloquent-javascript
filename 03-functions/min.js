@@ -5,9 +5,9 @@ function min(a, b)
   return a < b ? a : b;
 }
 
-for (a = -5; a <= 5; a++)
+for (let a = -5; a <= 5; a++)
 {
-  for (b = 5; b >= -5; b--)
+  for (let b = 5; b >= -5; b--)
   {
     console.log("a = " + a +
               "\nb = " + b +
